@@ -1,0 +1,42 @@
+{
+  "name": "bootstrap4-customizer",
+  "version": "1.0.0",
+  "author": "Sasa Mikodanic",
+  "license": "MIT",
+  "private": true,
+  "title": "Bootstrap 4 Customizer",
+  "description": "Customize bootstrap 4 by webpack.",
+  "homepage": "http://bootstrap.jdoo.cloud",
+  "main": "dist",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.2",
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^2.0.0",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^2.0.0",
+    "node-sass": "^4.10.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js & webpack-dev-server --mode development",
+    "build-verbose": "webpack --config webpack.config.js --display-error-details & webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:smikodanic/dex8-www.git"
+  },
+  "keywords": [
+    "bootstrap 4 customizer",
+    "css bootstrap",
+    "scss bootstrap",
+    "sass bootstrap"
+  ]
+}

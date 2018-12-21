@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Customizer</title>
+  <meta name="description" content="DEX8">
+  <meta name="keywords" content="dex8">
+  <meta name="author" content="Saša Mikodanić">
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/ico">
+  <link rel="stylesheet" type="text/css" href="/dist/css/custom.bootstrap.css">
+  <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script src="/dist/bundle.bootstrap.js"></script> <!-- IMPORTANT!!! This enables webpack's live reload. defined in webpack.config.js file: watchContentBase: true -->
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Product
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!-- \NAVBAR -->
+
+
+  <main>
+
+    <h2>Text</h2>
+Lorem ipsum dolor sit amet, natum graece ea vel, at errem propriae similique vis, quidam facete philosophia at mei. Eum ne repudiare dissentiet, ad vim alii rebum, an per quaestio conceptam. Sed an cibo qualisque eloquentiam, impedit perpetua repudiandae eum at. Te elit eirmod suavitate qui, quodsi scripta ei eum. Et suas alia alienum vix, modo splendide torquatos an vel. Usu eu dicta vulputate.
+Mel no agam legere utamur. Dicit omnes quo cu. Cu convenire ocurreret quo. Doming noluisse ut eum.
+Scripta tritani eu vis. Id eam voluptaria omittantur. Civibus hendrerit ei vis. Everti tamquam definiebas sit ad, te viris splendide consequat vim.
+Et sea modus fuisset blandit, ex nam quis dico mollis. At sit semper omnesque, duo ut facer audiam pericula, at mea iuvaret docendi volutpat. Saperet salutatus id per. Putant alienum no quo. His dico persius no.
+Cum id nemore constituto consectetuer. Ius ei posse erant soleat, melius verear sententiae pri ne, et sea consul invidunt phaedrum. Cum no habeo adolescens. Et vim cetero ocurreret.
+
+    <h2>Buttons</h2>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+  
+  </main>
+
+  <footer>
+    FOOTER
+  </footer>
+
+
+</body>
+
+</html>
